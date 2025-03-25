@@ -102,7 +102,7 @@ return "Search Response"</con:dispatchPath>
  <sam:buyResponseContent>
  <purchasestatus>
  <id>Item 3</id>
- <stockStatus>4 towels</stockStatus>
+ <stockStatus>4 towelss</stockStatus>
  <expectedDelivery>Any day now...</expectedDelivery>
  </purchasestatus>
  </sam:buyResponseContent>
