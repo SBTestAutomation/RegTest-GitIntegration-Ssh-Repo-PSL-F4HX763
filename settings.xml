@@ -4,7 +4,50 @@
   <con:settings>
     <con:setting id="d456a24e-9eef-4df8-b6e3-dbfd786b33bbfileName">Virtualization-Sample-Project-readyapi-project-cp1</con:setting>
   </con:settings>
+  <con:customMockService id="b4e1151b-e9db-45c7-bb0e-63d890b0b292" name="TCP Virtual Service 1">
+    <con:settings/>
+    <con:properties>
+      <con:property>
+        <con:name>tcpMockService.port</con:name>
+        <con:value>9897</con:value>
+      </con:property>
+      <con:property>
+        <con:name>tcpMockService.requestDelimiterType</con:name>
+        <con:value>Segment Forwarding</con:value>
+      </con:property>
+      <con:property>
+        <con:name>tcpMockService.requestDelimiterParams</con:name>
+        <con:value/>
+      </con:property>
+      <con:property>
+        <con:name>tcpMockService.responseDelimiterType</con:name>
+        <con:value>Segment Forwarding</con:value>
+      </con:property>
+      <con:property>
+        <con:name>tcpMockService.responseDelimiterParams</con:name>
+        <con:value/>
+      </con:property>
+    </con:properties>
+    <con:constraints>
+      <con:congestion>0</con:congestion>
+      <con:inputBandwidth>-1</con:inputBandwidth>
+      <con:outputBandwidth>-1</con:outputBandwidth>
+      <con:maxThreadPoolCapacity>20</con:maxThreadPoolCapacity>
+      <con:coreThreadPoolCapacity>5</con:coreThreadPoolCapacity>
+      <con:virtError>
+        <con:start>0</con:start>
+        <con:endless>true</con:endless>
+      </con:virtError>
+    </con:constraints>
+    <con:virtProperties>
+      <con:property>
+        <con:name>mockServiceType</con:name>
+        <con:value>TCP</con:value>
+      </con:property>
+    </con:virtProperties>
+  </con:customMockService>
   <con:savedRecentRuns>1</con:savedRecentRuns>
+  <con:requirements/>
   <con:properties/>
   <con:wssContainer/>
   <con:databaseConnectionContainer/>

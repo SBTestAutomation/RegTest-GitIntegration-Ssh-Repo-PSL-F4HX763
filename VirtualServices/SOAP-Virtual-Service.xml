@@ -105,7 +105,7 @@
       <con:operation>search</con:operation>
       <con:request name="Test Request - search" outgoingWss="" incomingWss="" id="1a624c91-9a29-4f2d-bb2d-31bdf394b3d3" defaultOutgoingWss="" defaultIncomingWss="">
         <con:settings>
-          <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;entry key="Accept" value="application/json" xmlns="http://eviware.com/soapui/config"/></con:setting>
+          <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;con:entry key="Accept" value="application/json" xmlns:con="http://eviware.com/soapui/config"/></con:setting>
         </con:settings>
         <con:encoding>UTF-8</con:encoding>
         <con:endpoint>http://127.0.0.1:8083/mockServiceSoapBinding</con:endpoint>
@@ -172,7 +172,7 @@
       <con:operation>buy</con:operation>
       <con:request name="Test Request - buy" outgoingWss="" incomingWss="" timeout="" sslKeystore="" useWsAddressing="false" useWsReliableMessaging="false" wssPasswordType="" id="0a36356c-6f4d-4b0e-9664-378565ae1a97" defaultOutgoingWss="" defaultIncomingWss="">
         <con:settings>
-          <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;entry key="Accept" value="application/json" xmlns="http://eviware.com/soapui/config"/></con:setting>
+          <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;con:entry key="Accept" value="application/json" xmlns:con="http://eviware.com/soapui/config"/></con:setting>
         </con:settings>
         <con:encoding>UTF-8</con:encoding>
         <con:endpoint>http://127.0.0.1:8083/mockServiceSoapBinding</con:endpoint>
@@ -181,7 +181,7 @@
  <soapenv:Body>
  <sam:buy>
  <sessionid>${Test Request - login#Response#declare namespace sam='http://www.soapui.org/sample/'; //sam:loginResponse[1]/sessionid[1]}</sessionid>
- <buystring>Item 1</buystring>
+ <buystring>Item 3</buystring>
  </sam:buy>
  </soapenv:Body>
 </soapenv:Envelope>]]></con:request>
