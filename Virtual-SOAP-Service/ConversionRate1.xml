@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:mockOperation xmlns:con="http://eviware.com/soapui/config" name="ConversionRate" id="3a763764-47f5-475c-8ff3-a9b552b17326" interface="CurrencyConvertorSoap" operation="ConversionRate">
+<con:mockOperation xmlns:con="http://eviware.com/soapui/config" name="ConversionRate1" id="3a763764-47f5-475c-8ff3-a9b552b17326" interface="CurrencyConvertorSoap" operation="ConversionRate">
   <con:settings>
     <con:setting id="e62b2c2a-61df-402e-9c74-65e520b1edfefileName">ConversionRate</con:setting>
-    <con:setting id="3a763764-47f5-475c-8ff3-a9b552b17326fileName">ConversionRate</con:setting>
+    <con:setting id="3a763764-47f5-475c-8ff3-a9b552b17326fileName">ConversionRate1</con:setting>
   </con:settings>
   <con:defaultResponse>Response 1</con:defaultResponse>
   <con:dispatchStyle>SEQUENCE</con:dispatchStyle>
