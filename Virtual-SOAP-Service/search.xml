@@ -264,7 +264,7 @@ Impress the strags with this amazing cloth!</description>
     <con:wsaConfig mustUnderstand="NONE" version="200508"/>
   </con:response>
   <con:dispatchConfig/>
-  <con:response name="ccccc" id="b396be8c-00c8-4fa5-b767-f562ac1dfd3d" httpResponseStatus="200" encoding="UTF-8">
+  <con:response name="ccccc" id="b396be8c-00c8-4fa5-b767-f562ac1dfd3d" httpResponseStatus="200" encoding="UTF-8" dataSource="">
     <con:settings/>
     <con:responseContent><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:sam="http://www.soapui.org/sample/">
    <soapenv:Header/>
